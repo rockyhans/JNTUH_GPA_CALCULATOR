@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JNTUH_GPA_CALCULATOR/static/css/main.6725c773.css",
+    "main.js": "/JNTUH_GPA_CALCULATOR/static/js/main.cb0a83ff.js",
+    "static/js/453.ed3810f9.chunk.js": "/JNTUH_GPA_CALCULATOR/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/JNTUH_GPA_CALCULATOR/index.html",
+    "main.6725c773.css.map": "/JNTUH_GPA_CALCULATOR/static/css/main.6725c773.css.map",
+    "main.cb0a83ff.js.map": "/JNTUH_GPA_CALCULATOR/static/js/main.cb0a83ff.js.map",
+    "453.ed3810f9.chunk.js.map": "/JNTUH_GPA_CALCULATOR/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6725c773.css",
+    "static/js/main.cb0a83ff.js"
+  ]
+}
