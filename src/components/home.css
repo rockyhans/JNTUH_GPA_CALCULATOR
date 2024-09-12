@@ -1,0 +1,90 @@
+/* MAIN page styling */
+h2 {
+  color: darkviolet;
+  text-align: center;
+}
+
+h3 {
+  color: #f18329;
+}
+
+h4 {
+  color: #b2cac1;
+}
+
+.mainPage {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px; /* Adjusted for a smoother look */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em; /* Adjusted for better readability */
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Header styling */
+.home-header h1 {
+  text-align: center;
+  color: darkviolet;
+}
+
+/* JNTUH Photo Styling */
+.jntuhPhotoDiv {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto; /* Center the div horizontally */
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 10px rgba(14, 14, 14, 0.8);
+}
+
+.jntuhPhoto {
+  height: 90%;
+  width: 95%;
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+  border-radius: 20px;
+}
+
+/* Home content section styling */
+.home-content {
+  text-align: center;
+  margin: 20px 0; /* Added margin for spacing */
+}
+
+.hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Navigation styling */
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #f90404;
+  border-radius: 30px;
+  text-decoration: none; /* Remove underline from links */
+}
+
+@media (max-width: 568px) {
+  .navigation{
+    display: grid;
+  }
+}
+
+.nav-link:hover {
+  background-color: #3b3c3c;
+  color: red;
+}
+
+.home-footer {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+}

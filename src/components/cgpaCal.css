@@ -1,0 +1,84 @@
+.mainPage {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .calculator {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  input[type="number"], select {
+    width: 80px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sgpa-show {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .percentage-show {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .animated-border-box {
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 25px rgba(0, 123, 255, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+    }
+  }
+  
+  .navigation {
+    margin: 20px;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+  }
+  
+  .nav-link div {
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link div:hover {
+    background-color: #0056b3;
+  }
+  
